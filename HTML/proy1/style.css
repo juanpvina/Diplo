@@ -2,8 +2,9 @@ body {
     font-family: 'Young Serif', serif;
     text-align: center;
     background-color: #8BC6EC;
-    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
-    margin: 50px;
+    background-image: linear-gradient( 120deg, #52E5E7 10%, #130CB7 80%);
+    width:100%;
+
   }
 
   .boxes {
@@ -16,21 +17,24 @@ body {
 }
 #header{
     position:fixed;
+    margin-left: 10%;
     background-color: #130CB7;
+    opacity: 75%;
     top:10px;
-    width:100%;
+    width:80%;
     
 }
 
 .boxes div{
-   width: 210px;
    height: auto;
    border: 2px solid black;
+   text-align:center;
    border-radius: 20px;
    margin: 25px;
    flex: flex-grow;
-   flex-basis: 15%;
+   flex-basis: 21%;
    flex-wrap:wrap;
+   background-color: #8BC6EC;
 }
 
 
@@ -43,7 +47,7 @@ body {
 .boxes div img{
     width:180px;
     height:150px;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 .boxes div img:hover{
     width:250px;
@@ -60,5 +64,4 @@ body {
 
 #hidden:hover{
         visibility: hidden;
-        background: #52E5E7;
 }
