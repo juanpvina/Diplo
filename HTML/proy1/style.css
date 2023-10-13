@@ -1,7 +1,45 @@
-
- 
-*{
+body {
+    font-family: 'Young Serif', serif;
     text-align: center;
     background-color: #8BC6EC;
     background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    margin: 50px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size:small;
+   
+}
+
+.boxes div{
+   width: 210px;
+   height: auto;
+   border: 2px solid black;
+   border-radius: 20px;
+   margin: 25px;
+   flex: flex-grow;
+   flex-basis: 15%;
+   flex-wrap:wrap;
+}
+.boxes div img{
+    width:180px;
+    height:150px;
+    border-radius: 25px;
+}
+
+
+
+.boxes :first-child{
+    border-top-left-radius: 75px;
+}
+.boxes :last-child{
+    border-bottom-right-radius: 75px;
+}
+
+#hidden:hover{
+        visibility: hidden;
+        background: #52E5E7;
 }
