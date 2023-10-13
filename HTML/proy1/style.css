@@ -7,11 +7,19 @@ body {
   }
 
   .boxes {
+    margin-top: 175px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size:small;
    
+}
+#header{
+    position:fixed;
+    background-color: #130CB7;
+    top:10px;
+    width:100%;
+    
 }
 
 .boxes div{
@@ -24,13 +32,24 @@ body {
    flex-basis: 15%;
    flex-wrap:wrap;
 }
+
+
+.boxes div:hover{
+    width:250px;
+    border: 5px solid red;
+
+}
+
 .boxes div img{
     width:180px;
     height:150px;
     border-radius: 25px;
 }
-
-
+.boxes div img:hover{
+    width:250px;
+    height:250px;
+    border-radius: 25px;
+}
 
 .boxes :first-child{
     border-top-left-radius: 75px;
