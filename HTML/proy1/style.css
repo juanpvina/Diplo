@@ -1,27 +1,7 @@
-.formulario{
-    color: rgb(240, 6, 6);
-    background-color: #8BC6EC;
-    }
+
  
-body{
-    color: blue;
-    
+*{
     text-align: center;
     background-color: #8BC6EC;
     background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
-}
-.relleno{
-    width: 500px;
-    heigth: 500px;
-    color: red;
-    border: red;
-    border-radius: 25% 30% / 40% 20%;
-    PADDING: 10px;
-    background-color: aliceblue;
-
-
-}
-.flex{
-
-    display: flex;
 }
