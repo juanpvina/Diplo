@@ -1,0 +1,52 @@
+@import url(style.css);
+
+.boxes {
+
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: large;
+    justify-content: space-around;
+}
+
+
+.boxes div {
+    height: auto;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    margin: 25px;
+    flex: flex-grow;
+    flex-basis: 21%;
+    flex-wrap: wrap;
+    color:black;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: linear-gradient(to right,#b7b7bb, #c4dae7); 
+    
+    
+
+
+    opacity: 90%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+.boxes div:hover {
+    width: 250px;
+    border: 2px solid red;
+
+}
+
+.boxes div img {
+    width: 250px;
+    height: auto;
+    border-radius: 30px;
+    
+}
+
+.boxes div img:hover {
+
+    border-radius: 25px;
+    transform: scale(1.5);
+}
