@@ -1,0 +1,60 @@
+@import url(style.css);
+
+.boxes {
+
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: large;
+    justify-content: space-around;
+}
+
+
+.boxes div {
+    display:flex;
+    height: auto;
+    min-width:300px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius:33px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    filter: drop-shadow(2px 4px 6px black);
+    margin: 25px;
+    align-items: center;
+    transition: 0.1s transform;
+   
+}
+
+.errores div{
+    opacity: 90%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex: flex-grow;
+    flex-basis: 21%;
+    color:black;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: linear-gradient(to right,#b7b7bb, #c4dae7);
+
+}
+
+
+.boxes div:hover {
+    border: 2px solid red;
+
+}
+
+.boxes div img {
+    height: 300px;
+    border-radius: 30px;
+    
+}
+
+.boxes div img:hover {
+
+    border-radius: 25px;
+    transform: scale(1.5);
+    transition-delay: 0.35s;
+}
