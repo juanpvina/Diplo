@@ -9,30 +9,33 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 .iframe{
-    width:1000px;
+  width: 90vw;
     height: 600px;
     border-radius: 20px;
   }
 
-  .intro{
-  grid-template-rows: 600px 500px 500px 500px;
-
-  }
-  .qr{
-    width:500px;
-    height:500px;
-  }
-
-  .qrs{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-
-  }
   .accordion-body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (min-width: 1200px) {
+.iframe{
+  width:1000px;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+
+  .iframe{
+    height: 700px;
+    border-radius: 20px;
+  }
+
+}
+
