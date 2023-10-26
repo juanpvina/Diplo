@@ -1,2 +1,0 @@
-# Diplo
-Diplomatura Programacion
