@@ -1,0 +1,29 @@
+@import url(errores.css);
+
+.cura{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+.cura section {
+    background-color: #212529;
+    margin: 20px;
+    border-radius: 100px;
+}
+.cura section h2{
+    padding-top:10px;
+}
+.cardscura {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cura section p{
+    text-align: center;
+    width:auto;
+padding:20px;
+}
