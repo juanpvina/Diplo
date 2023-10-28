@@ -20,14 +20,14 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: black;
-    filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(10px 10px 14px rgba(255, 255, 255, 0.5));
     margin: 25px;
     align-items: center;
     transition: 0s transform;
    
 }
 .boxes div:hover {
-    border: 2px solid red;
+    filter: drop-shadow(10px 10px 33px rgba(255, 255, 255, 0.9));
 
 }
 
@@ -41,7 +41,7 @@
 
     border-radius: 25px;
     transform: scale(1.5);
-    transition-delay: 0.25s;
+    transition-delay: 0.8s;
 }
 
 

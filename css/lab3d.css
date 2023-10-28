@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
 }
-.iframe{
+#iframe{
   width: 90vw;
     height: 600px;
     border-radius: 20px;
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-.iframe{
+#iframe{
   width:1000px;
 }
 
@@ -32,7 +32,7 @@
 
 @media (min-width: 600px) and (max-width: 1199px) {
 
-  .iframe{
+  #iframe{
     height: 700px;
     border-radius: 20px;
   }

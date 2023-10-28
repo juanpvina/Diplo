@@ -1,0 +1,8 @@
+
+# HTID:22453708: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22453708:
+RewriteEngine On
+RewriteCond %{HTTP_HOST} juanpvina\.com\.ar [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://juanpvina.com.ar/$1 [R,L]

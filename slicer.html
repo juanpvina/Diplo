@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/cura.css" />
+  <title> Impress3D - Juan Pablo Viña</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <img id="logo" src="img/logoimpress3d.png"> </img>
+
+      <a class="navbar-brand" href="#">Impress3D</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menue" id="navbarNavDropdown">
+        <ul class="navbar-nav menue">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab3d.html">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Impress3D
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="curso.html">Curso</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="slicer.html">Slicer</a></li>
+              <li><a class="dropdown-item" href="errores.html">Errores</a></li>
+              <li><a class="dropdown-item" href="pagos.html">Pagos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main cura">
+    
+    <section class="boxes errores seccioncura">
+
+      <h2> Tips </h2>
+
+      <section class="cardscura">
+        <div>
+          <h3> Sobre extrusion </h3>
+          <img src="img/errores/4.jpg">
+          <ul>
+            <li>Diametro extrusor/filamento seteado incorrecto</li>
+            <li>Disminuir el extrusion multiplier</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Huecos en la capa superior </h3>
+          <img src="img/errores/5.jpg">
+
+          <ul>
+            <li>Capas superiores insuficientes</li>
+            <li>El relleno es demaciado bajo</li>
+            <li>Problemas de poca extrusion</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Stringing/Oozing/hilos </h3>
+          <img src="img/errores/6.jpg">
+          <ul>
+            <li>Distancia de retraccion</li>
+            <li>Velocidad de retraccion</li>
+            <li>Temperatura alta</li>
+            <li>Grandes movimientos en espacio abierto</li>
+            <li> Velocidad de 'viaje' </li>
+          </ul>
+        </div>
+        <div>
+          <h3> Sobrecalentamiento </h3>
+          <img src="img/errores/7.jpg">
+
+          <ul>
+            <li>Enfriamiento insuficiente</li>
+            <li> Imprimiendo a muy alta temperatura</li>
+            <li>Imprimiendo demaciado rapido</li>
+            <li>Reduccion de velocidad en capas pequeñas</li>
+            <li>Cuando todo falle: intentar imprimir varias piezas simultáneamente</li>
+
+          </ul>
+        </div>
+      </section>
+      <p>descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion </p>
+
+    </section>
+    <section class="boxes errores seccioncura">
+
+      <h2> Titulo de la seccion </h2>
+
+      <section class="cardscura">
+        <div>
+          <h3> Layer shifting </h3>
+          <img src="img/errores/8.jpg">
+          <ul>
+            <li>demaciada velocidad de travel</li>
+            <li>pieza/overhangs complicados</li>
+            <li>Problemas mecanicos y/o electricos</li>
+          </ul>
+        </div>
+
+
+
+
+
+        <div>
+          <h3> Se separan las capas / Splitting </h3>
+          <img src="img/errores/9.jpg">
+
+          <ul>
+            <li>Altura de capa demaciado alta.</li>
+            <li>Temperatura demaciado baja.</li>
+            <li>problemas con el ambiente con determinados materiales.</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Barral/nozzle desajustados </h3>
+          <img src="img/errores/clog.png">
+          <ul>
+            <li>Ajustar apropiadamente nozzle contra el Barral</li>
+            <li>Sin ajustar el nozzle contra el block</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Filamento comido </h3>
+          <img src="img/errores/10.jpg">
+
+          <ul>
+            <li>Velocidad de retracción muy alta.</li>
+            <li>Temperatura del extrusor muy baja</li>
+            <li>Imprimiendo demaciado rapido</li>
+            <li>Chequear extrusor parcialmente/tapado.</li>
+            <li>Tension del resorte del extrusor.</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Extrusor tapado </h3>
+          <img src="img/errores/11.jpg">
+          <p> </p>
+          <p> </p>
+          <p>
+          <ul>
+            <li>Empujar manualmente el filamento al extrusor</li>
+            <li>Sacar el filamento, cortar un tramo y reinsertar.</li>
+            <li>Limpiar el nozzle.</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Deja de extruir en el medio de la impresion </h3>
+          <img src="img/errores/12.jpg">
+          <ul>
+            <li>Sin filamento</li>
+            <li>Filamento ‘robado’</li>
+            <li>Nozzle tapado</li>
+            <li>Driver del motor sobrecalentado.</li>
+          </ul>
+        </div>
+      </section>
+      <p>descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion </p>
+
+    </section>
+    <section class="boxes errores seccioncura">
+
+      <h2> Titulo de la seccion </h2>
+
+      <section class="cardscura">
+        <div>
+          <h3> Relleno débil </h3>
+          <img src="img/errores/13.jpg">
+
+          <ul>
+            <li>Probar con otros patrones de relleno</li>
+            <li>Bajar la velocidad de infill</li>
+            <li>Incrementar el ancho del trazo del infill</li>
+            <li></li>
+          </ul>
+        </div>
+        <div>
+          <h3> Blobs o sobreextrusion al inicio de la capa </h3>
+          <img src="img/errores/14.jpg">
+          <ul>
+            <li>Retraccion y coasting incorrectos</li>
+            <li>Evitar retracciones innecesarias</li>
+            <li>Retracciones en movimiento</li>
+            <li>Elegir el inicio de la ‘costura’</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Gaps o agujero entre relleno y perímetro </h3>
+          <img src="img/errores/15.jpg">
+
+          <ul>
+            <li>Insuficiente overlap</li>
+            <li>Imprimiendo demaciado rapido</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Curling o bordes deformados</h3>
+          <img src="img/errores/16.jpg">
+          <ul>
+            <li>Overheating / temperatura muy alta</li>
+            <li>Poca refrigeracion / fan de capa</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> cicatrices en la capa superior </h3>
+          <img src="img/errores/17.jpg">
+
+          <ul>
+            <li>Flowrate elevado</li>
+            <li>Vertical lift (Z-hop)</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Agujeros en las esquinas </h3>
+          <img src="img/errores/18.jpg">
+
+          <ul>
+            <li>Perimetros insuficientes</li>
+            <li>Capas superiores insuficientes</li>
+            <li>Relleno insuficiente</li>
+            <li>Velocidad alta</li>
+          </ul>
+        </div>
+      </section>
+      <p>descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion </p>
+
+    </section>
+    <section class="boxes errores seccioncura">
+
+      <h2> Titulo de la seccion </h2>
+
+      <section class="cardscura">
+        <div>
+          <h3> Lineas en los costados </h3>
+          <img src="img/errores/19.jpg">
+
+          <ul>
+            <li>extrusion inconsistente</li>
+            <li>Variaciones de temperatura</li>
+            <li>Problemas mecanicos (wobble)</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Vibraciones o 'ringing' </h3>
+          <img src="img/errores/20.jpg">
+
+          <ul>
+            <li> Imprimiendo demaciado rapido</li>
+            <li>Aceleraciones del firmware mal seteadas</li>
+            <li> Problemas mecanicos</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Agujeros en paredes finas </h3>
+          <img src="img/errores/21.jpg">
+
+          <ul>
+            <li>Ajustar el ancho del trazo del extrusor</li>
+            <li> Opciones de overlap en huecos donde no entra un perimetro.</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Cosas pequeñas no se imprimen </h3>
+          <img src="img/errores/22.jpg">
+
+          <ul>
+            <li>Habilitar extrusion de perimetros simples</li>
+            <li>Rediseñar la pieza para tener anchos minimos</li>
+            <li> Cambiar el nozzle por uno mas pequeño</li>
+            <li>cambiar el layer width</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Extrusion inconsistente </h3>
+          <img src="img/errores/23.jpg">
+
+          <ul>
+            <li>El filamento se esta trabando o frenando</li>
+            <li>Extrusor tapado</li>
+            <li>alturas de capa muy muy finas</li>
+            <li>Ancho de extrusion incorrecto</li>
+            <li>Mala calidad del filamento</li>
+            <li>Problemas mecanicos del extrusor</li>
+
+          </ul>
+        </div>
+        <div>
+          <h3> Warping </h3>
+          <img src="img/errores/24.jpg">
+
+          <ul>
+            <li>Usar cama caliente o subirle la temperatura.</li>
+            <li> Apagar el fan de capa en las primeras capas</li>
+            <li>Contener la temperatura ambiente de la impresora</li>
+            <li>Brims y Rafts</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Mala superficie de soportes </h3>
+          <img src="img/errores/25.jpg">
+          <p> </p>
+          <p></p>
+          <p></p>
+          <p></p>
+          </p>
+          <p></p>
+          <ul>
+            <li>Bajar la altura de capas</li>
+            <li>Subir el infill del soporte</li>
+            <li>Separacion vertical del soporte</li>
+            <li>Separacion horizontal del soporte</li>
+            <li>activar interfaz de soporte</li>
+            <li>Usar un segundo extrusor/material. (PVA)</li>
+
+          </ul>
+        </div>
+      </section>
+      <p>descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion </p>
+
+    </section>
+    <section class="boxes errores seccioncura">
+
+      <h2> Titulo de la seccion </h2>
+
+      <section class="cardscura">
+        <div>
+          <h3> Precision dimensional </h3>
+          <img src="img/errores/26.jpg">
+
+          <ul>
+            <li>Pata de elefante</li>
+            <li>Under-extrusion o sobreextrusion</li>
+            <li>Steps/mm erróneos</li>
+            <li>Corregir con expansion horizontal</li>
+          </ul>
+        </div>
+        <div>
+          <h3> Malos puentes </h3>
+          <img src="img/errores/27.jpg">
+          <ul>
+            <li>Aumentar velocidades de bridge y reducir flujo en bridges</li>
+            <li>Chequear el angulo usado en el infill del bridge</li>
+            <li>Usar algunos soportes en bridges muy largos</li>
+          </ul>
+        </div>
+      </section>
+      <p>descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion descripcion de la seccion descripcion de la seccion
+        descripcion de la seccion descripcion de la seccion </p>
+
+    </section>
+    <section class="boxes errores seccioncura">
+
+      <h2> Layer width/height | Ancho/alto de capa </h2>
+
+      <section class="cardscura">
+        <div>
+          <h3> Width/ancho muy bajo </h3>
+          <img src="img/slicer/pocowidth.webp">
+          <ul>
+            <li>Entre 60% y 100% del nozzle</li>
+            <li>Mejores detalles</li>
+            <li>Medidas mas precisas</li>
+            <li>Aumento del tiempo de impresion</li>
+            <li>Menor adhesion entre capas</li>
+            <li>Limita el ancho de extrusion</li>
+          </ul>
+
+        </div>
+        <div>
+          <h3> Medida ideal </h3>
+          <img src="img/slicer/conmedidas.webp">
+
+          <ul>
+            <li> Entre el 90% y 150% del nozzle</li>
+            <li> Recomendado alrededor de 120%</li>
+            <li> Equilibrio entre tiempo, detalle y adhesion</li>
+            <li> Ideal para impresiones normales a complicadas</li>
+            <li> La mejor opcion para overhangs</li>
+
+
+          </ul>
+        </div>
+
+        <div>
+          <h3> Width/ancho demaciado alto </h3>
+          <img src="img/slicer/demaciadowidth.webp">
+          <ul>
+            <li> Mayor a 150% del nozzle</li>
+            <li>Reduce tiempos de impresion</li>
+            <li>Perdida de detalles</li>
+            <li>Aumenta la adhesion entre capas</li>
+          </ul>
+        </div>
+
+      </section>
+      <p> Prusaslicer posee Arachne ( anchos variables ) </p>
+
+    </section>
+
+  </section>
+
+  <footer>
+
+    <p> Impress3D By Juanpvina</p>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
