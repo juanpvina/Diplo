@@ -57,23 +57,35 @@
   <section class="division main" data-bs-theme="dark">
 
     <section class="contacto">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Texto</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="mb-3">
-        <label for="formFile" class="form-label">Para subir tu archivo</label>
-        <input class="form-control" type="file" id="formFile">
-      </div>
-      <button type="button" class="btn btn-secondary">Enviar</button>
+      <form action="/action_page.php">
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value="Juan Pablo Viña"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" value="nombre@gmail.com"><br>
+        <label for="tel">Teléfono:</label><br>
+        <input type="text" id="tel" name="tel" value="0111563506417"><br>
+        <label for="comment">Comentario</label><br>
+        <textarea type="text" id="comment" name="comment"> Ingrese comentario</textarea><br>
+        <input type="checkbox" id="tHambre" name="tiene hambre" value="hambre">
+        
+       <label for="hambre"> Tengo hambre</label><br>
+
+       <!-- el selector aparece cuando pones tick en 'tengo hambre'-->
+       <select name="select" id="cHambre">
+        <option value="value1">Poca</option>
+        <option value="value2" selected>Masomenos</option>
+        <option value="value3">Mucha</option>
+      </select>
+        <br>
+        <br>
+        <button type="button" class="btn btn-secondary">Enviar</button>
+        <button type="button" class="btn btn-secondary">Reset</button>
+      </form>
+      
     </section>
 
     <section class="contacto">
-      <div >
+      <div>
         Otras vías de contacto
         <ul>
           <li>Telefono: 1563506417</li>
