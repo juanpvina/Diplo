@@ -23,9 +23,17 @@
     width:100%;
 }
 
-
-@media only screen and (min-width: 600px) {
+@media (min-width: 768px) and (max-width: 1200px) {
+   
     .i3d{
-    width:500px;
+        width:500px;
+        }
+}
+@media (min-width: 1200px) {
+    .main{
+        min-height: 800px;
     }
+    .i3d{
+        width:500px;
+        }
 }
