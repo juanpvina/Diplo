@@ -1,29 +1,46 @@
 @import url(errores.css);
+.boxes div img {
+    height:auto;
+}
 
-.cura{
+.tips{
 
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
 
 }
-.seccioncura{
+.secciontips{
     background-color: rgb(40 40 40 / 80%);
     border: 2px solid #555555af;
     margin: 20px;
     border-radius: 100px;
 }
-.cura section h2{
+.tips section h2{
     padding-top:10px;
 }
-.cardscura {
+.cardstips {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+.cardstips img{
+height: auto;
+}
 
-.cura section p{
+
+.tips section p{
     text-align: center;
     width:auto;
 padding:20px;
+
+
+}
+
+
+@media (min-width: 1200px) {
+.tips section p{
+padding-left:200px;
+padding-right:200px;
+}
 }
