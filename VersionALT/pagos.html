@@ -5,13 +5,11 @@
   <link rel="shortcut icon" href="img/favicon.ico">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/i3d.css" />
   <title> Impress3D - Juan Pablo Viña</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -30,7 +28,7 @@
       <div class="collapse navbar-collapse menue" id="navbarNavDropdown">
         <ul class="navbar-nav menue">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="lab3d.html">Pedidos</a>
@@ -49,69 +47,72 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Shop
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Shop Impress3D</a></li>
-              <li><a class="dropdown-item" href="pagos.html">Pagos</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="pagos.html">Pagos</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
-
-        </li>
-        <li class="nav-item" id="selectorEstilo">
-          
-            <input type="checkbox" id="estiloalt" name="estilo alternativo">
-            <label for="estiloalt"> Estilo alternativo</label>
-          
-        </li>
-          
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="intro main">
-    <div class="imgintro">
 
-      <img src="img/i3d/intro.avif">
-
+  <div class="accordion accordion-flush main" id="accordionFlushExample" data-bs-theme="dark">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Pago con QR
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body center">
+          <img class="i3d" src="img/i3d/QR I3D.png"> </img>
+        </div>
+      </div>
     </div>
-    <div class="txt1">
-
-      <p>
-        Bienvenidos a Impress3D, tu puerta de entrada a un mundo de creatividad tridimensional y producción avanzada. En
-        Impress3D, estamos comprometidos en revolucionar la manera en que concebimos y materializamos nuestras ideas.
-        Somos un equipo apasionado de expertos en diseño y tecnología, dedicados a llevar la magia del diseño y la
-        impresión 3D a la vida de individuos y empresas por igual.
-        <br>
-        En un mundo en constante evolución, la innovación es la clave del éxito. En Impress3D, creemos que el diseño y
-        la impresión 3D son el futuro, y estamos aca para allanar el camino hacia éste. Nuestro enfoque va más allá de
-        simplemente imprimir objetos; se trata de transformar ideas en realidad, de empoderar a emprendedores, artistas,
-        ingenieros y creadores de todos los ámbitos.
-      </p>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Pago con Link
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body center">
+          Ingresá al siguiente link: link.mercadopago.com.ar/impress3d<br>
+          <a class="btn btn-primary" href="https://link.mercadopago.com.ar/impress3d" role="button">Link de pago Impress3D</a>
+        </div>
+      </div>
     </div>
-    <div class="txt2">
-      <p>
-        <b>Impress3D </b><br>
-        ¿Qué nos distingue? Nuestra pasión por la excelencia en el diseño, la calidad de nuestras impresiones y nuestro
-        compromiso con la satisfacción del cliente. Desde prototipos innovadores hasta proyectos de producción en serie,
-        estamos listos para dar vida a tus conceptos más ambiciosos.
-      </p>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Curso de Impresion 3D
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body center">
+          <h2>Curso personalizado intensivo.</h2>
+          <p class="center">Aprenderemos desde la instalación de los programas necesarios en la PC, la calibración y mantenimiento de la
+          impresora, aprender a crear tu propio diseño, y utilización de los programas para manejar la impresora y
+          generar los códigos de impresión a partir del diseño, y una guía de resolución de los problemas más usuales.
+          Más info: juanp.vina@gmail.com<br>
+          <a class="btn btn-primary" href="https://mpago.la/1SuF5Mv" role="button">Curso Impresion 3D</a>
+        </div>
+      </div>
     </div>
 
-    <div class="txt3">
-      <p>
-        Acompáñanos en este viaje a través de las posibilidades infinitas del diseño y la impresión en 3D. Explora
-        nuestro catálogo de servicios, descubre cómo podemos ayudarte a alcanzar tus objetivos y únete a nosotros en la
-        creación del futuro.
-      </p>
-    </div>
+  </div>
 
-  </section>
   <footer>
 
     <p> Impress3D By Juanpvina</p>

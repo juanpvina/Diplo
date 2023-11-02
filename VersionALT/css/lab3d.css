@@ -1,0 +1,45 @@
+@import url(style.css);
+
+.lab3d{
+    padding: 10px;
+    background: rgb(70 70 70);
+    background: radial-gradient(circle, rgb(70 70 70) 3%, rgb(50 50 50) 78%, rgb(4 51 118 / 70%) 100%);
+    margin: 16px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#iframe{
+  width: 90vw;
+    height: 600px;
+    border-radius: 20px;
+  }
+
+  .accordion-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1200px) {
+#iframe{
+  width:1000px;
+}
+.lab3d{
+  padding: 25px;
+}
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+
+  #iframe{
+    height: 700px;
+    border-radius: 20px;
+  }
+  .lab3d{
+    padding: 15px;
+  }
+}
+
