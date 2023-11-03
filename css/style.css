@@ -10,13 +10,15 @@
 }
 
 body {
+    background-color: rgb(59, 59, 59) !important;
     background-image: url(../img/fondos/index600-.jpg);
     background-position-x: center;
     background-attachment: fixed;
-    background-size:  600px;
+    background-size: 600px;
     background-repeat: no-repeat;
-    
+
 }
+
 .main {
     color: #d4d4d4;
     font-family: 'Montserrat', sans-serif;
@@ -24,9 +26,10 @@ body {
     min-height: 800px;
 }
 
-.menue li a{
-    color:rgb(220, 220, 220);
+.menue li a {
+    color: rgb(220, 220, 220);
 }
+
 .menue li {
     margin-inline: 10px;
 }
@@ -65,6 +68,7 @@ body {
 .txt0 {
     min-height: 120px;
 }
+
 .txt1 {
     padding: 25px;
     margin: 15px;
@@ -81,21 +85,24 @@ body {
     text-align: center;
     font-weight: 500;
 }
+
 .txt4 {
     font-weight: 500;
 }
+
 .txt5 {
     font-weight: 500;
 }
 
-.txt2 , .txt4 , .txt5 {
+.txt2,
+.txt4,
+.txt5 {
     padding: 30px;
     border-radius: 80px;
     margin: 10px;
     text-align: center;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.05), 
-        rgba(0, 0, 0, 0.15));
+    background: linear-gradient(rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.15));
 }
 
 .content1 {
@@ -127,13 +134,14 @@ footer {
 
 
 @media (min-width: 1100px) {
-    body{
+    body {
         background-image: url(../img/fondos/index.jpg);
         background-position-x: center;
-        background-size:contain;
+        background-size: contain;
         background-attachment: fixed;
-        background-size:2000px;
+        background-size: 2000px;
     }
+
     .main {
         color: #d4d4d4;
         font-family: 'Montserrat', sans-serif;
@@ -148,7 +156,7 @@ footer {
     .intro {
         width: 100%;
         display: grid;
-        grid-template-columns:1fr 320px 2fr 1fr 250px 2fr 1fr;
+        grid-template-columns: 1fr 320px 2fr 1fr 250px 2fr 1fr;
         grid-template-rows: 150px 102px 300px 290px 120px auto auto 200px;
         grid-column: 2/5;
         text-wrap: wrap;
@@ -196,6 +204,7 @@ footer {
         margin: 15px;
         border-radius: 35px;
     }
+
     .txt4 {
         grid-column: 2/5;
         grid-row: 5/ span 1;
@@ -203,6 +212,7 @@ footer {
         margin: 15px;
         border-radius: 35px;
     }
+
     .txt5 {
         grid-column: 5/5;
         grid-row: 6/ span 1;
@@ -218,25 +228,27 @@ footer {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
+
 }
 
 
 
 @media (min-width: 600px) and (max-width: 1100px) {
 
-    body{
+    body {
         background-repeat: no-repeat;
         background-image: url(../img/fondos/index6001100.jpg);
         background-position-x: center;
         background-attachment: fixed;
-        background-size:1100px;
+        background-size: 1100px;
     }
+
     .main {
         font-size: 17px;
         min-height: 800px;
-        
+
     }
+
     #selectorEstilo {
         padding-top: 9px;
     }
