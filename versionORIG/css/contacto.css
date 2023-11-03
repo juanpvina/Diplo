@@ -1,0 +1,23 @@
+@import url(style.css);
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width:500px;
+}
+.division {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* height: 700px; */
+    justify-content: center;
+}
+#cHambre{
+    visibility: hidden;
+}
+#tHambre:checked~#cHambre {
+    visibility: visible;
+}
+
