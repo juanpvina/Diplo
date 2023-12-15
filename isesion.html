@@ -5,11 +5,13 @@
   <link rel="shortcut icon" href="img/i3d/favicon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/galeria.css" />
-  <title> Impress3D - Galeria</title>
+  <link rel="stylesheet" href="./css/login.css" />
+  <title> Impress3D - Juan Pablo Viña</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -26,22 +28,22 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse menue" id="navbarNavDropdown">
-        <ul class="navbar-nav menue">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
-          
+        
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+            <a class="nav-link" href="galeria.html">Galeria</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Impress3D
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="curso.html">Curso</a></li>
-              <li><a class="dropdown-item" href="isesion.html">Inicia Sesion</a></li>
+              <li><a class="dropdown-item disabled" href="tips.html" id="tips">Tips</a></li>
+              <li><a class="dropdown-item disabled" href="errores.html" id="errores">Errores</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -63,90 +65,29 @@
       </div>
     </div>
   </nav>
-
-  <section class="boxes main">
-    <div>
-      <img src="img/galeria/intro.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/slicer13-1.png">
-
-    </div>
-    <div>
-      <img src="img/i3d/logoimpress3d.png">
-    </div>
-    <div>
-      <img src="img/galeria/makerb.png">
-
-    </div>
-    <div>
-      <img src="img/galeria/utn.gif">
-
-    </div>
-    <div>
-      <img src="img/galeria/colores.png">
-
-    </div>
-    <div>
-      <img src="img/galeria/mechanical_3D_print.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/cover-1-9.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/f1.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/auto3d.webp">
-
-    </div>
-    <div>
-      <img src="img/galeria/design.webp">
-
-    </div>
-    <div>
-      <img src="img/galeria/solid.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/unnamed.png">
-
-    </div>
-    <div>
-      <img src="img/lab3d/filament-storgae-banner.jpg">
-
-    </div>
-    <div>
-      <img src="img/i3d/class.jpg">
-
-    </div>
-     <div>
-      <img src="img/galeria/bodymaker.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/wpinicio.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/maker.jpg">
-
-    </div>
-    <div>
-      <img src="img/galeria/contacfondos.webp">
-
-    </div>
-    <div>
-      <img src="img/galeria/piezas1.webp">
-
-    </div>
-
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="" id="user">
+        <label>Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="" id="pass">
+        <label>Password</label>
+      </div>
+      <a href="#" onclick="isesion()"> 
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+      </a>
+    </form>
+    <output type="text" id="check"> Esperando Login </output>
+  </div>
   </section>
-
+  <script src="./js/sesion.js"></script>
   <footer>
 
     <p> Impress3D By Juanpvina</p>

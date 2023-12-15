@@ -31,8 +31,6 @@
     margin: 10px;
 }
 
-
-
 @media only screen and (min-width: 600px) {
     .boxes div img {
         height: 300px;
